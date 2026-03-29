@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Inter;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 15vh;
+    background-color: #1b1b1b;
+    border-bottom: 1px solid #222222;
+    color: white;
+    
+    
+}
+
+button {
+    border: none;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+button:hover{
+    color: #c17c32;
+    cursor: pointer;
+}
+
+.opening-image{
+    margin: 0;
+    margin-top: 15vh;
+    height: 50vh;
+    background: url('assets/opening-img.jpg') center/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.who-we-are{
+    margin-top: 100px;
+}
+
+#content{
+    margin-top: 15vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10vw;
+    /* border: 1px solid; */
+}
+
+.articles{
+    color: rgba(0, 0, 0, 0.553);
+}
+
+h2 {
+    color: black;
+}
+
+
+.reservations {
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 20px 1fr;
+    gap: 0;
+    margin: 50px 0;
+    
+}
+
+.server-icon {
+    grid-row: 1/4;
+    width: 70px;
+    height: 100%;
+}
+
+.reservations-text {
+    grid-column: 2/7;
+    margin: 0;
+    
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #00ad30;
+    line-height: 0.8;
+    padding: 5px;
+}
+.reservations-number {
+    grid-row: 3/4;
+    grid-column: 2/7;
+    margin: 0;
+    margin-left: 10px;
+    line-height: 0.8;
+    padding: 5px;
+    /* align-self: flex-end; */
+    font-size: 1.2rem;
+   
+   
+}
+
+.description {
+    color: #00ad30;
+    text-transform: uppercase;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+
+}
+.about-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    gap: 20px;
+    height: to-fit;
+    justify-content: space-between;
+}
+
+.gal-img {
+    height: 300px;
+    width: 300px;
+}
+
+/* MENU */
+
+.menu-title {
+    font-size: 2.4rem;
+    margin: 130px 50px 15px ;
+    
+}
+
+.menu {
+    color: white;
+    display: flex;
+    margin: 50px;
+    border: 2px solid rgb(170, 167, 162);
+    border-radius: 20px;
+    width: 750px;
+    height: 600px;
+    padding: 40px 0px 40px 40px;
+    background: url("assets/food2.jpg") center / cover no-repeat;
+    
+}  
+
+
+section {
+    align-self: center;
+}
+
+hr {
+    border: none;
+    border: 1px solid white;
+    margin: 50px 20px;
+}
+
+/* CONTACT */
+.contact-title{
+    margin: 140px 25px 50px;
+}
+
+.contact-box{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+   
+}
+
+.contact-field{
+    border: 2px solid #c19d60;
+    margin: 0 20px;
+    padding: 15px;
+    background-color: #f2eee8;
+    color: black;
+
+}
+
+iframe {
+    position: fixed;
+    width: 100vw;
+    height: 50vh;
+    border: none;
+    bottom: 0px;
+}
+
